@@ -1,0 +1,177 @@
+* {
+    /* border: 1px solid black; */
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+.top-page {    
+    /* border: 1px solid black; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: 
+        url(./image/sea_image_daytime.jpg),
+        url(./image/sea_image_evening.JPG),
+        url(./image/sea_image_evening_02.JPG),
+        url(./image/sea_image_morning.JPG),
+        url(./image/sea_image_night.JPG);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;    
+    height: calc(100% - 90px);
+}
+
+header {    
+    /* border: 1px solid black; */
+}
+
+header h1 {
+    height: 100px;
+    margin: 0 0 0 50px;
+    font-size: 45px;
+    float: left;
+    line-height: 100px;
+    color: rgb(0, 250, 54);
+    text-shadow: 2px 2px 2px black;
+}
+
+.header-icon {
+    float: right;
+    font-size: 70px;
+    color: #0b3964;
+    line-height: 100px;
+    margin: 30px 80px 0 0;
+    padding: 0; 
+    text-decoration: none;
+}
+
+.clear {
+    clear: left;
+}
+
+.eggs {
+    /* border: 1px solid black; */
+    font-size: 0;
+    max-width: 1000px;
+    margin:0 auto;
+}
+
+.program {
+    /* border: 1px solid black; */
+    display: inline-block;
+    width: calc( 100% / 4);
+    box-sizing: border-box;
+    vertical-align: top;
+    opacity: 0.7;
+    text-align: center;
+}
+
+.program p {
+    color: black;
+    font-weight: bold;
+    line-height: 210px;
+    font-size: 15px;
+    letter-spacing: 5px;
+}
+
+.egg {
+    width: 180px;
+    height: 210px;
+    border-radius: 50%  50%  50%  50%  / 60%   60%   45%  45%;
+    text-align: center;
+    margin: 0 auto;
+ }
+ 
+ .eggs h2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+ .egg-link {
+     text-decoration: none;
+ }
+
+ .html {
+    background-color: rgb(255, 164, 164);
+}
+
+.js {
+    background-color: rgb(74, 74, 228);
+}
+
+.ruby {
+    background-color: rgb(159, 248, 178);
+}
+
+.php {
+    background-color: rgb(252, 252, 161);
+}
+
+.blogs {
+    /* border: 1px solid black; */
+    width: 1000px;
+    margin:0 auto;
+}
+
+.new-blog {
+    /* border: 1px solid black; */
+    font-size: 20px;
+    margin-top: 70px;
+}
+
+.blog-table {
+    /* border: 1px solid black; */
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.blog-table tr {
+    /* border: 1px solid black; */
+    height: 100px;
+}
+
+.blog-table a {
+    text-decoration: none;   
+    color: white; 
+}
+
+.blog-day {
+    /* border: 1px solid black; */
+    width: 30%;
+}
+
+.blog-title {
+    /* border: 1px solid black; */
+    width: 70%;
+}
+
+footer {
+    /* border: 1px solid black; */
+    height: 90px;
+    box-sizing: border-box;
+    padding-top: 20px;
+    background-color: rgb(0, 225, 255);
+}
+
+footer p {
+    margin: 0 0 0 50px;
+    /* border: 1px solid black; */
+    float: left;
+    height: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    /* color: white; */
+}
+
+footer h1 {
+    margin: 0 50px 0 0;
+    /* border: 1px solid black; */
+    float: right;
+    height: 100%;
+    font-size: 40px;
+    color: red;
+}
