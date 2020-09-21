@@ -1,0 +1,112 @@
+@media(max-width: 1000px) {
+    .program {
+        width: calc( 100% / 2);
+        margin-bottom: 40px;
+    }
+
+    .top-page {
+        height: auto;
+    }
+
+    .top-page h1, .program-page h1 {
+        font-size: 35px;
+    }
+
+    .header-icon {
+        font-size: 50px;
+    }
+
+    .eggs, .blogs {
+        width: 670px;
+        margin:0 auto;
+    }
+
+    .new-blog, .program-introduction {
+        font-size: 16px;
+    }
+
+    .program-introduction {
+        padding-top: 0px;
+    }
+
+    .blog-table tr {
+        height: 70px;
+    }
+
+    footer p {
+        margin-top: 10px;
+        height: 60px;
+    }
+
+    footer h1 {
+        font-size: 30px;
+    }
+
+}
+
+@media(max-width: 670px) {
+    .eggs {
+        width: 400px;
+    }
+
+    .program {
+        width: 100%;
+    }
+
+    .top-page h1, .program-page h1 {
+        font-size: 25px;
+    }
+
+    .header-icon {
+        font-size: 30px;
+        margin: 30px 30px 0 0;
+    }
+
+    .program p {
+        color: black;
+        font-weight: bold;
+        line-height: 140px;
+        font-size: 10px;
+        letter-spacing: 3px;
+    }
+
+    .egg {
+        width: 120px;
+        height: 140px;
+        border-radius: 50%  50%  50%  50%  / 60%   60%   45%  45%;
+        text-align: center;
+        margin: 0 auto;
+     }
+
+    .blogs {
+        width: 400px;
+    }
+
+     .new-blog, .program-introduction {
+         font-size: 12px;
+     }
+
+     .blog-table tr {
+        height: 45px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        height: 80px;
+        padding: 0;
+    }
+
+    footer p {
+        clear: left;
+        margin: 0 auto;
+        height: 30px;
+        font-size: 17px;
+    }
+
+    footer h1 {
+        clear: right;  
+        margin: 0 auto;  
+        font-size: 20px;    
+    }
+}
