@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>studying programming!!</title>
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <link rel="stylesheet" type="text/css" href="./responsive.css">
+        <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">  
+        <!-- アイコン一覧リンク　https://fontawesome.com/     -->
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <div class="top-page" id="top-page">
+            <header>
+                <a href="file:///D:/MyProfile/index.html"><h1 onmouseover="mouseoverDaytime();">Studying programming!!</h1></a>
+                <a href="https://twitter.com/programmingstu5" target="_blank" rel="noopener noreferrer" class="fab fa-twitter header-icon" id="header-icon"></a>
+            </header>
+            <div class="eggs">
+                <h2>学習中のプログラミング言語</h2>
+                <div class="program">
+                    <a href="./program/program_01.html" class="egg-link">
+                        <!-- <div class="egg html" onmouseover="mouseoverEvening();"> -->
+                        <div class="egg html" onmouseover="setbackground(./image/sea_image_evening.JPG);">
+                            <p>HTML&amp;CSS</p>
+                        </div>
+                    </a>                                
+                </div>
+                <div class="program">
+                    <a href="#" class="egg-link">
+                        <div class="egg js" onmouseover="mouseoverEvening02();">
+                            <p>JavaScript</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="program">
+                    <a href="#" class="egg-link">
+                        <div class="egg ruby" onmouseover="mouseoverNight();">
+                            <p>Ruby</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="program">
+                    <a href="#" class="egg-link">
+                        <div class="egg php" onmouseover="mouseoverMorning();">
+                            <p>PHP</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="blogs">
+                <div class="new-blog">
+                    <table class="blog-table">
+                        <tr>
+                            <th class="blog-day">更新日</th>
+                            <th class="blog-title">タイトル</th>
+                        </tr>
+                        <tr>
+                            <td>2020/08/26（仮）</td>
+                            <td><a href="#">ProgateのHTML&amp;CSSコースを修了しました！（仮）</a></td>
+                        </tr>
+                    </table>
+                </div>
+                <!-- 
+                学習している言語        
+                ・html&css
+                ・JavaScript
+                ・ruby
+                ・PHP
+                項目ごとにアイコン作成。
+                cursorによるアニメーションをつける。
+                クリックして、それぞれの進捗状況ページへリンク
+                （リンク先はHTMLで別ページを作成）
+                
+                新着記事
+                3ページ程度をリンク
+                もっと見るで、記事一覧ページへアクセス
+
+                レスポンシブデザインを意識する。
+                -->
+                
+            </div>
+        </div>
+        <footer id="foo">
+            <p>&copy;2020 Yasu</p>
+            <h1>Let's enjoy programming!!</h1>
+        </footer>
+    </body>
+</html>
