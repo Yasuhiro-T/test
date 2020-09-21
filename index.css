@@ -14,10 +14,10 @@ html, body {
     box-sizing: border-box;
     background-image: 
         url(./image/sea_image_daytime.jpg);
-/*         url(./image/sea_image_evening.JPG),
+        url(./image/sea_image_evening.JPG),
         url(./image/sea_image_evening_02.JPG),
         url(./image/sea_image_morning.JPG),
-        url(./image/sea_image_night.JPG); */
+        url(./image/sea_image_night.JPG);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;    
