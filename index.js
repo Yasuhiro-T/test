@@ -1,5 +1,5 @@
 function setbackgroundDaytime() {
-    document.getElementById( "top-page" ).style.backgroundImage = "url(./image/sea_image_daytime.JPG)";
+    document.getElementById( "top-page" ).style.backgroundImage = "url(./image/sea_image_daytime.jpg)";
     document.getElementById( "footer" ).style.backgroundColor = "rgba(0, 225, 255, 0.8)";
 }
 
